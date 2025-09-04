@@ -12,6 +12,7 @@
 
    html {
       font-size: 62.5%;
+      scroll-padding-top: 80px;
    }
 
    body {
@@ -177,7 +178,7 @@ box-shadow: 0 0 25px #3d5ca6;
       content: "soneca"
    }
    61%, 80%{
-      content: "red bull"
+      content: "atleta"
    }
 }
 @media(max-width:995px){
@@ -255,4 +256,17 @@ display: none;
    #menu-toggle:checked ~ nav{
       display: block;
    }
-}                 
+}      
+
+.blocos h3{
+   font-size: 3rem;
+   margin-bottom: 2rem;
+   border-left: 5px solid #3d5ca6;
+   padding-left: 1.5rem;
+   color: #3d5ca6
+}
+.bloco p{
+   font-size: 1.8rem;
+   line-height: 1.7;
+   color: white
+}
